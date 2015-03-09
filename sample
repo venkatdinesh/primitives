@@ -1,0 +1,42 @@
+public class primitives implements shape {
+
+	private static int a;
+	private static int b;
+	private static int c;
+	private primitives() {
+	
+		
+	}
+
+	public static void main(String[] args) {
+     setA(10);
+     setB(20);
+     setC(a+b);
+   System.out.println (c);
+	}
+
+	public static int getA() {
+		return a;
+	}
+
+	public static void setA(int a) {
+		primitives.a = a;
+	}
+
+	public static int getB() {
+		return b;
+	}
+
+	public static void setB(int b) {
+		primitives.b = b;
+	}
+
+	public static int getC() {
+		return c;
+	}
+
+	public static void setC(int c) {
+		primitives.c = c;
+	}
+
+}
